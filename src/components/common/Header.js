@@ -7,7 +7,7 @@ class Header extends Component {
   componentDidMount()
   {
     $(".dropdown-button").dropdown();
-
+    $(".button-collapse").sideNav();
   }
 
 
@@ -23,8 +23,8 @@ class Header extends Component {
          </ul>
           <nav>
             <div className="nav-wrapper">
-              <a href="#!" className="brand-logo"><i className="material-icons">cloud</i>Gowma</a>
-
+              <a href="#!" className="brand-logo"><i className="material-icons">polymer</i>Gowma</a>
+              <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
               <ul className="right hide-on-med-and-down">
                 <li>
                         <div className="input-field">
@@ -35,6 +35,11 @@ class Header extends Component {
                 <li><a href="#"><i className="material-icons left">search</i></a></li>
                 <li><a href="#"><i className="material-icons left">add_shopping_cart</i>Cart<span className="new badge">0</span></a></li>
                 <li><a className="dropdown-button" href="#!" data-activates="dropdown1"><i className="material-icons left">account_box</i>Sign In<i className="material-icons right">arrow_drop_down</i></a></li>
+              </ul>
+
+              <ul className="side-nav" id="mobile-demo">
+                <li><a href="#"><i className="material-icons left">add_shopping_cart</i>Cart<span className="new badge">0</span></a></li>
+                
               </ul>
             </div>
           </nav>

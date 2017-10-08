@@ -2,16 +2,17 @@ import React,{Component} from 'react';
 import Carousel from './Landing/Carousel';
 import Menu from './Landing/Menu';
 import Offers from './Landing/Offers';
+import Brands from './Landing/Brands'
 
 
-class App extends Component {
+class Landing extends Component {
   render() {
     return (
       <div>
 
       <div className="row">
-         <div className="col s3"><Menu/></div>
-         <div className="col s9">
+         <div className="col s12 m3"><Menu/></div>
+         <div className="col s12 m9">
             <Carousel/>
          </div>
 
@@ -19,6 +20,7 @@ class App extends Component {
       </div>
 
       <Offers/>
+      <Brands/>
 
       <Offers/>
 
@@ -31,4 +33,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Landing;
