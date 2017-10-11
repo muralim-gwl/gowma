@@ -23,7 +23,7 @@ class Header extends Component {
          </ul>
           <nav>
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo"><i className="material-icons">polymer</i>Gowma</a>
+              <a href="#" className="brand-logo"><button style={{backgroundColor:"white",marginLeft:"5px"}} className="waves-effect waves-light btn-large"><img width={"150px"}   src={require("../../images/LOGO-TM.png")}/></button>{/*<i className="material-icons">polymer</i>Gowma*/}</a>
               <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
               <ul className="right hide-on-med-and-down">
                 <li>
