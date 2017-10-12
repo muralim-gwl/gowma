@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import $ from "jquery";
+// var $=window.$;
 
 class Carousel extends Component {
   componentDidMount()
