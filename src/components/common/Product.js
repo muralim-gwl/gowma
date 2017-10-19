@@ -11,10 +11,17 @@ class Product extends Component{
           <div className="card-image">
             <img src="https://lorempixel.com/580/250/nature/3"/>
             <span className="card-title">Card Title</span>
-            <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">pageview</i></a>
+            <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
           </div>
           <div className="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <span>Reebok TREAD FAST Running Shoes</span>
+            <br/>
+            <span className="new badge left">4.6</span> <nbsp/>
+             <h6 className="text-subhead">1,176</h6>
+             <span>2670</span> <nspn/>
+             <span className="green-text text-darken-3">40% off</span> <br/>
+             <span className="green-text text-darken-3">Offers</span> <nbsp/>
+             <span>No Cost EMI & 1 More</span>
           </div>
      </div>
 

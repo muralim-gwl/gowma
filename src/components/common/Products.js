@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Product from './Product';
 
-let items=[1,2,3];
+let items=[1,2,3,4];
 
 class Products extends Component{
   render()
