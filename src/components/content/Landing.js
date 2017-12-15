@@ -21,12 +21,12 @@ class Landing extends Component {
 
       </div>
 
-      <Offers/>
+    {/*  <Offers/>
       <Brands/>
 
       <Offers/>
 
-      <Offers/>
+      <Offers/>*/}
 
 
 
